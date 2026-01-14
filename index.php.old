@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Esconde ambas as versões por padrão */
+        .mobile-view, .desktop-view {
+            display: none;
+        }
+
+        /* Estilos específicos para versão desktop */
+        @media (min-width: 1024px) {
+            .desktop-view {
+                display: flex;
+            }
+        }
+
+        /* Estilos específicos para versão mobile */
+        @media (max-width: 1023px) {
+            .mobile-view {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <!-- Versão Mobile -->
+    <div class="mobile-view w-full max-w-sm p-6 bg-white shadow-lg rounded-xl text-center">
+        <center><a  target="_blank"><img src="gp-logo-1.jpg" width="150" height="100" /></a></center>
+        <h1 class="text-2xl font-bold text-green-600 mb-6">Forest Solutions</h1>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/cad_entidade.php" class="block w-full bg-green-600 text-white font-semibold text-lg py-4 rounded-lg mb-4 shadow-md hover:bg-green-700">
+            🛠️ Cadastro de Entidade
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/cad_solucoes.php" class="block w-full bg-green-600 text-white font-semibold text-lg py-4 rounded-lg mb-4 shadow-md hover:bg-green-700">
+            🛠️ Cadastro de Soluções
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/cad_atividade.php" class="block w-full bg-green-600 text-white font-semibold text-lg py-4 rounded-lg mb-4 shadow-md hover:bg-green-700">
+            🛠️ Cadastro de Atividades
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/cad_produto.php" class="block w-full bg-green-600 text-white font-semibold text-lg py-4 rounded-lg mb-4 shadow-md hover:bg-green-700">
+            🛠️ Cadastro de Produtos
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/mostra_entidades.php" class="block w-full bg-green-600 text-white font-semibold text-lg py-4 rounded-lg mb-4 shadow-md hover:bg-green-700">
+            🔍 Visualizar Entidades
+        </a>
+
+        <a class="block w-full bg-green-600 text-white font-semibold text-lg py-4 rounded-lg mb-4 shadow-md hover:bg-green-700">
+            🔍 Visualizar Soluções
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/mostra_atividades.php" class="block w-full bg-green-600 text-white font-semibold text-lg py-4 rounded-lg mb-4 shadow-md hover:bg-green-700">
+            🔍 Visualizar Atividades
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/mostra_produtos.php"  class="block w-full bg-green-600 text-white font-semibold text-lg py-4 rounded-lg mb-4 shadow-md hover:bg-green-700">
+            🔍 Visualizar Produtos
+        </a>
+    </div>
+
+    <!-- Versão Desktop -->
+    <div class="desktop-view w-full max-w-4xl p-10 bg-white shadow-lg rounded-xl text-center flex flex-wrap justify-center gap-6">
+        <a  target="_blank"><img src="gp-logo-1.jpg" width="300" height="200" /></a>
+        <h1 class="w-full text-4xl font-bold text-green-600 mb-6">Forest Solutions</h1>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/cad_entidade.php" class="w-1/2 bg-green-600 text-white font-semibold text-xl py-6 rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+            🛠️ Cadastro de Entidade
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/cad_solucoes.php" class="w-1/2 bg-green-600 text-white font-semibold text-xl py-6 rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+            🛠️ Cadastro de Soluções
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/cad_atividade.php" class="w-1/2 bg-green-600 text-white font-semibold text-xl py-6 rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+            🛠️ Cadastro de Atividades
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/cad_produto.php" class="w-1/2 bg-green-600 text-white font-semibold text-xl py-6 rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+            🛠️ Cadastro de Produtos
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/mostra_entidades.php" class="w-1/2 bg-green-600 text-white font-semibold text-xl py-6 rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+            🔍 Visualizar Entidades
+        </a>
+
+        <a class="w-1/2 bg-green-600 text-white font-semibold text-xl py-6 rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+            🔍 Visualizar Soluções
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/mostra_atividades.php" class="w-1/2 bg-green-600 text-white font-semibold text-xl py-6 rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+            🔍 Visualizar Atividades
+        </a>
+
+        <a href="https://pesquisa.am/tabelas/forest_solutions/mostra_produtos.php"  class="w-1/2 bg-green-600 text-white font-semibold text-xl py-6 rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+            🔍 Visualizar Produtos
+        </a>
+
+    </div>
+
+    <script>
+        // Garante que apenas a versão correta seja exibida
+        document.addEventListener("DOMContentLoaded", function () {
+            const isMobile = window.innerWidth <= 1023;
+            document.querySelector(".mobile-view").style.display = isMobile ? "block" : "none";
+            document.querySelector(".desktop-view").style.display = isMobile ? "none" : "flex";
+        });
+    </script>
+
+</body>
+</html>
